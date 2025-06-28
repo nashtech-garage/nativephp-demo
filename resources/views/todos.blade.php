@@ -15,8 +15,8 @@
 
     <form method="POST" action="/todos">
         @csrf
-        <input type="text" name="todo" placeholder="Nhập công việc..." required>
-        <button type="submit">Thêm</button>
+        <input type="text" name="todo" placeholder="Type the task..." required>
+        <button type="submit">Add</button>
     </form>
 
     <ul>
